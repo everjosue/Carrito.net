@@ -1,0 +1,100 @@
+@using Productos.Models;
+@model Productos.Models.ProductosInventario
+
+@{
+    ViewData["Title"] = "Detalles del Producto";
+    Layout = "~/Views/Shared/_Layoutprincipal.cshtml";
+}
+
+    <head>
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/custom-style.css" /> <!-- Enlace al archivo CSS personalizado -->
+
+    </head>
+
+<div class="details-container">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (Model != null)
+    {
+
+        <div class="botoninicio-button text-right mt-3">
+            <a asp-controller="ProductosInventario" asp-action="TodosLosProductos" class="btn btn-primary">Volver al Inicio</a>
+        </div>
+
+        <div class="carousel-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+
+                <div class="carousel-indicators">
+                    @for (int i = 0; i < Model.imgprincipal.Length; i++)
+                    {
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")" aria-label="Slide @(i+1)"></button>
+                    }
+                </div>
+                <div class="carousel-inner">
+                    @for (int i = 0; i < Model.imgprincipal.Length; i++)
+                    {
+                        <div class="carousel-item @(i == 0 ? "active" : "")">
+                            <img src="@Model.imgprincipal" class="d-block mx-auto img-small" alt="..." style="max-width: 200%; max-height: 300px;">
+                        </div>
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="product-details">
+            <h2>@Model.Nombre</h2>
+            <p><strong>Marca:</strong> @Model.Marca</p>
+            <p><strong>Modelo:</strong> @Model.Modelo</p>
+            <div><strong>Precio:</strong> $@Model.Precio.ToString("0.00")</div>
+            <p><strong>Descripción:</strong> @Model.descripcion</p>
+        </div>
+        <div>
+            
+        </div>
+
+
+
+    }
+    else
+    {
+        <p>No se encontró el producto.</p>
+    }
+
+    @await Html.PartialAsync("AgregarResenia")
+</div>
+
+<style>
+    /* Estilos para los detalles del producto */
+    .details-container {
+        margin: 20px;
+    }
+
+    .carousel-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    /* Estilos para los detalles del producto */
+    .product-details {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Estilos para el botón de regreso */
+    .back-button {
+        margin-top: 20px;
+        text-align: center;
+    }
+</style>

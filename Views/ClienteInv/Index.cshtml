@@ -1,0 +1,47 @@
+@model IEnumerable<Productos.Models.ClienteInv>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Pedidos</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<h1>Lista de Clientes</h1>
+
+<p class="create-link">
+    <a asp-action="Create" class="btn btn-primary">Ingresar Nuevo cliente</a>
+</p>
+<div class="vertical-list">
+    @foreach (var item in Model) {
+        <div class="list-item">
+            <img src="@item.imgcliente" alt="Imagen del Cliente" width="100" />
+            <div class="item-details">
+                <div><strong>Nombre:</strong> @item.Nombre</div>
+                <div><strong>Correo:</strong> @item.Correo</div>
+                <div><strong>Teléfono:</strong> @item.Telefono</div>
+                <div><strong>Dirección:</strong> @item.Direccion</div>
+            </div>
+            <div class="item-actions">
+                <a asp-action="Edit" asp-route-id="@item.idcliente" class="btn btn-primary">Editar</a>
+                <a asp-action="Details" asp-route-id="@item.idcliente" class="btn btn-secondary">Detalles</a>
+                <a asp-action="Delete" asp-route-id="@item.idcliente" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div>
+        <hr class="list-separator" />
+    }
+</div>
+
+<div class="return-link">
+    <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+</div>
+
+</body>
+</html>

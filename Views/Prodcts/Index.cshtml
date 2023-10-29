@@ -1,0 +1,12 @@
+@model List<Productos.Models.Prodcts>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@foreach (var item in Model)
+{
+    @item.Nombre @item.descripcion
+
+    <br />  
+}

@@ -1,0 +1,46 @@
+@model IEnumerable<Productos.Models.PedidoInv>
+
+@{
+    ViewData["Title"] = "Lista de Proveedores";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<h1>Lista de compras del cliente</h1>
+
+<p class="create-link">
+    <a asp-controller="PedidoInv" asp-action="Create" class="btn btn-primary">Crear Nuevo</a>
+</p>
+
+<div class="vertical-list">
+    @foreach (var item in Model) {
+        <div class="list-item">
+            <img src="@item.imgpedido" alt="Imagen del Producto" width="100" />
+            <div class="item-details">
+                <div><strong>Fecha:</strong> @item.Fecha</div>
+                <div><strong>Monto:</strong> $@item.Monto</div>
+                <div><strong>Estado Envio</strong> @item.Estado</div>
+                <div><strong>Dirección Entrega</strong> @item.Direccion_Entrega</div>
+              
+            </div>
+             <div class="item-actions">
+                <a asp-controller="PedidoInv" asp-action="Edit" asp-route-id="@item.idpedido" class="btn btn-primary">Editar</a>
+                <a asp-controller="PedidoInv" asp-action="Details" asp-route-id="@item.idpedido" class="btn btn-secondary">Detalles</a>
+                <a asp-controller="PedidoInv" asp-action="Delete" asp-route-id="@item.idpedido" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div>
+        <hr class="list-separator" />
+    }
+</div>
+
+
+</body>
+</html>

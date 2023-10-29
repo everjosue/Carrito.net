@@ -1,0 +1,66 @@
+[
+    {
+      "idproducto": "1",
+      "nombre": "Productos",
+
+      "descripcion": "Todos Los Productos",
+      "imgprincipal": "/images/ModulosProductos.jpg",
+      "accion": "TodosLosProductos",
+      "controller": "ProductosInventario"
+
+    },
+    {
+        "idproducto": "2", 
+        "nombre": "Productos",
+        "descripcion": "Listado de productos",
+        "imgprincipal": "/images/ModulosProductos.jpg",
+        "accion": "Index",
+        "controller": "ProductosInventario"
+
+    },
+    {
+        "idproducto": "3", 
+        "nombre": "Clientes",
+        "descripcion": "Todos Los Clientes",
+        "imgprincipal": "/images/ModulosCliente.png",
+        "accion": "TodosLosClientes",
+        "controller": "ClienteInv"
+
+    },
+    {
+        "idproducto": "4", 
+        "nombre": "Clientes",
+        "descripcion": "Administrar Clientes",
+        "imgprincipal": "/images/ModulosCliente.png",
+        "accion": "Index",
+        "controller": "ClienteInv"
+
+    },
+    {
+        "idproducto": "5", 
+        "nombre": "Proveedores",
+        "descripcion": "Todos Los Proveedores",
+        "imgprincipal": "/images/ModulosProveedor.webp",
+        "accion": "TodosLosProveedores",
+        "controller": "SuminisInventario"
+
+    },
+    {
+        "idproducto": "6", 
+        "nombre": "Proveedores",
+        "descripcion": "Administrar los Proveedores",
+        "imgprincipal": "/images/ModulosProveedor.webp",
+        "accion": "Index",
+        "controller": "SuminisInventario"
+
+    },
+    {
+        "idproducto": "7", 
+        "nombre": "Pedidos",
+        "descripcion": "Ver y administrar los pedidos",
+        "imgprincipal": "/images/ModulosPedidos.webp",
+        "accion": "Index",
+        "controller": "PedidoInv"
+
+    }
+]

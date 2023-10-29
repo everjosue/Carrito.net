@@ -1,0 +1,60 @@
+@model List<Productos.Models.ModeloProductos>
+
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Sitio de Compras</title>
+    <link rel="stylesheet" href="~/site.css" />
+</head>
+<body>
+
+    <div class="text-center">
+    <h1 class="display-4">Bienvenido</h1>
+
+    <p>Administración del Sitio</p>
+   <!-- <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> -->
+    </div>
+    <div class="header">
+        <!-- Logo o imagen ilustrativa en la parte superior derecha -->
+        <img class="logo" src="/images/Representacion.png" alt="Logo de Mi Sitio de Compras">
+        <img class="logo_secundario" src="/images/Logo_Principal.png" alt="Logo de Mi Sitio de Compras">
+
+        <!-- Otros elementos del encabezado, como barra de búsqueda, carrito, etc. -->
+
+      
+
+    </div>
+
+    <br/>
+    <br/>
+
+ <div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">    
+            <div class="card mb-3">
+                <img src="@item.imgprincipal"  class="card-img-top img-fluid" style="height: 200px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Nombre</h5>
+                    <p class="card-text">@item.descripcion</p>
+                    <a class="btn btn-primary" asp-area="" asp-controller="@item.controller" asp-action="@item.accion">Acceder</a>
+                  
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+    <!-- Contenido principal de la página -->
+    <!-- ... -->
+</body>
+</html>
+

@@ -1,0 +1,73 @@
+@model IEnumerable<Productos.Models.ModeloProductos>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Inicio</h1>
+
+<head>
+    <!-- Otras etiquetas meta y enlaces aquí -->
+    
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+
+<p>
+    <a asp-action="Create">Registrar Producto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.imgprincipal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                <img src=@item.imgprincipal width="200px">
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idproducto">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idproducto">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idproducto">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

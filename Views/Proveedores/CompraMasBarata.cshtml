@@ -1,0 +1,119 @@
+@model Productos.Models.Proveedores
+
+@{
+    ViewData["Title"] = "Compra Más Barata";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .list-group {
+            margin-top: 20px;
+        }
+
+        .list-group-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 5px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .list-group-item dt {
+            flex: 1;
+            font-weight: bold;
+            color: #666;
+            margin-right: 10px;
+        }
+
+        .list-group-item dd {
+            flex: 2;
+            color: #333;
+        }
+
+        .no-data {
+            color: #888;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (Model != null)
+    {
+        <div class="list-group">
+            <div class="list-group-item">
+                <dt>ID de Compra:</dt>
+                <dd>@Model.Idcompra</dd>
+            </div>
+            <div class="list-group-item">
+                <dt>Proveedor:</dt>
+                <dd>@Model.Nombre</dd>
+            </div>
+            <div class="list-group-item">
+                <dt>Precio:</dt>
+                <dd>@Model.Precio</dd>
+            </div>
+            <div class="list-group-item">
+                <dt>Nombre del Producto:</dt>
+                <dd>@Model.NombreProducto</dd>
+            </div>
+            <div class="list-group-item">
+                <dt>Modelo:</dt>
+                <dd>@Model.Modelo</dd>
+            </div>
+            <!-- Agrega más propiedades según tus necesidades -->
+        </div>
+    }
+    else
+    {
+        <p class="no-data">No hay compras registradas.</p>
+    }
+
+    <a asp-action="Index" class="button">Volver a la Lista</a>
+</div>
+
+</body>
+</html>

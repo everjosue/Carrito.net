@@ -1,0 +1,64 @@
+@model Productos.Models.VentasProductos
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<div class="delete-page">
+    <div class="delete-container">
+        <h1 class="delete-title">@ViewData["Title"]</h1>
+        <hr class="delete-hr" />
+
+        <div class="delete-details">
+            <h3 class="delete-subtitle">¿Estás seguro de que deseas eliminar esto?</h3>
+            <h4 class="delete-subtitle">Detalles de la Venta</h4>
+            <dl class="delete-dl">
+                <dt>Código del Producto:</dt>
+                <dd>@Html.DisplayFor(model => model.idproducto)</dd>
+
+                <dt>Cédula del Cliente:</dt>
+                <dd>@Html.DisplayFor(model => model.CedulaCliente)</dd>
+
+                <dt>Nombre del Cliente:</dt>
+                <dd>@Html.DisplayFor(model => model.NombreCliente)</dd>
+
+                <dt>Cantidad de Venta:</dt>
+                <dd>@Html.DisplayFor(model => model.CantidadVenta)</dd>
+
+                <dt>Nombre:</dt>
+                <dd>@Html.DisplayFor(model => model.Nombre)</dd>
+
+                <dt>Marca:</dt>
+                <dd>@Html.DisplayFor(model => model.Marca)</dd>
+
+                <dt>Modelo:</dt>
+                <dd>@Html.DisplayFor(model => model.Modelo)</dd>
+
+                <dt>Precio:</dt>
+                <dd>@Html.DisplayFor(model => model.Precio)</dd>
+
+                <dt>Imagen Principal:</dt>
+                <dd>@Html.DisplayFor(model => model.imgprincipal)</dd>
+            </dl>
+        </div>
+        
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="idproducto" />
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

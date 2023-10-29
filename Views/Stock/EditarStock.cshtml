@@ -1,0 +1,84 @@
+@model Productos.Models.Stock
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar Producto</h1>
+
+<head>
+    <!-- Otras etiquetas meta y enlaces aquí -->
+    
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<h4>ModeloProductos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditarStock" class="styled-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="idproducto" />
+
+            <div class="form-group">
+                <label asp-for="idproducto" class="control-label">Codigo del producto</label>
+                <input asp-for="idproducto" class="form-control" />
+                <span asp-validation-for="idproducto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumBodega" class="control-label">Numero de Bodega</label>
+                <input asp-for="NumBodega" class="form-control" />
+                <span asp-validation-for="NumBodega" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoProducto" class="control-label">Tipo de Producto</label>
+                <input asp-for="TipoProducto" class="form-control" />
+                <span asp-validation-for="TipoProducto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cantidad" class="control-label">Cantidad</label>
+                <input asp-for="Cantidad" class="form-control" />
+                <span asp-validation-for="Cantidad" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label">Nombre</label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Marca" class="control-label">Marca</label>
+                <input asp-for="Marca" class="form-control" />
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelo" class="control-label">Modelo</label>
+                <input asp-for="Modelo" class="form-control" />
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label">Precio</label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="imgprincipal" class="control-label">Imagen Principal</label>
+                <input asp-for="imgprincipal" class="form-control" />
+                <span asp-validation-for="imgprincipal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="InicioStock">Volver a la Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

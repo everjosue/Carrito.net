@@ -1,0 +1,53 @@
+@model Productos.Models.PedidoInv
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<div class="details-page">
+    <div class="details-container">
+        <h1 class="details-title">Detalles</h1>
+        <hr class="details-hr" />
+
+        <div class="details-details">
+            <h4 class="details-subtitle">Detalles del Pedido</h4>
+            <dl class="details-dl">
+                <dt>ID del Pedido:</dt>
+                <dd>@Html.DisplayFor(model => model.idpedido)</dd>
+
+                <dt>Fecha:</dt>
+                <dd>@Html.DisplayFor(model => model.Fecha)</dd>
+
+                <dt>Monto:</dt>
+                <dd>@Html.DisplayFor(model => model.Monto)</dd>
+
+                <dt>Estado:</dt>
+                <dd>@Html.DisplayFor(model => model.Estado)</dd>
+
+                <dt>Dirección de Entrega:</dt>
+                <dd>@Html.DisplayFor(model => model.Direccion_Entrega)</dd>
+
+                <dt>Imagen del Pedido:</dt>
+                <dd><img src="@Model.imgpedido" width="200" alt="Imagen del Pedido" /></dd>
+            </dl>
+        </div>
+        
+        <div class="details-actions">
+            <a asp-action="Edit" asp-route-id="@Model.idpedido" class="btn btn-primary">Editar</a>
+            <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

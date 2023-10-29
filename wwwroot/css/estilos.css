@@ -1,0 +1,119 @@
+/* estilos.css */
+
+/* Estilos personalizados para la vista de inicio de sesión */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-floating input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-floating label {
+    font-size: 16px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password-link,
+.register-link,
+.resend-confirmation-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilo para el mensaje de error de validación */
+.validation-summary-errors {
+    color: #dc3545;
+    margin-top: 10px;
+}
+
+
+/*Estilos personalizados para la vista de registro*/
+
+/* Estilos personalizados para la vista de registro */
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.registration-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.registration-form .form-group {
+    margin-bottom: 15px;
+}
+
+.registration-form .form-floating input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form .form-floating label {
+    font-size: 16px;
+}
+
+.registration-form .btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form .btn-login:hover {
+    background-color: #0056b3;
+}
+
+.registration-form .text-danger {
+    color: #dc3545;
+    margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Administrar Roles y Usuarios";
+}
+
+<div class="container mt-5">
+    <h1>@ViewData["Title"]</h1>
+
+    <!-- Agregar Rol -->
+    <h3 class="mt-4">Agregar Nuevo Rol</h3>
+    <form asp-controller="UserRol" asp-action="AddRol" method="post" class="mt-3">
+        <div class="row">
+            <div class="col-md-9">
+                <input type="text" name="rolName" class="form-control" placeholder="Nombre del Rol" />
+            </div>
+            <div class="col-md-3">
+                <input type="submit" value="Agregar Rol" class="btn btn-primary btn-block" />
+            </div>
+        </div>
+    </form>
+
+    <!-- Asignar Usuarios a Roles -->
+    <h3 class="mt-4">Asignar Usuarios a Roles</h3>
+    <form asp-controller="UserRol" asp-action="AddUserRol" method="post" class="mt-3">
+        <div class="row">
+            <div class="col-md-4">
+                <select name="UserId" asp-items="@ViewBag.ListUsuarios" class="form-control">
+                    <option value="">Selecciona un Usuario</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select name="RoleId" asp-items="@ViewBag.ListRoles" class="form-control">
+                    <option value="">Selecciona un Rol</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <input type="submit" class="btn btn-primary btn-block" value="Asignar Rol" />
+            </div>
+        </div>
+    </form>
+</div>

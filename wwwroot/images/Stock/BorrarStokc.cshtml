@@ -1,0 +1,75 @@
+@model Productos.Models.Stock
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<div class="delete-page">
+    <div class="delete-container">
+        <h1 class="delete-title">Eliminar Producto</h1>
+        <p class="delete-message">¿Está seguro de eliminar este registro? Estos cambios son permanentes.</p>
+        
+        <div class="product-details-box">
+            <h2 class="product-details-title">Detalles del Producto</h2>
+            <hr class="details-hr" />
+            <ul class="product-details-list">
+                <li>
+                    <span class="details-label">Código del Producto:</span>
+                    @Html.DisplayFor(model => model.idproducto)
+                </li>
+                <li>
+                    <span class="details-label">Número de Bodega:</span>
+                    @Html.DisplayFor(model => model.NumBodega)
+                </li>
+                <li>
+                    <span class="details-label">Tipo de Producto:</span>
+                    @Html.DisplayFor(model => model.TipoProducto)
+                </li>
+                <li>
+                    <span class="details-label">Cantidad:</span>
+                    @Html.DisplayFor(model => model.Cantidad)
+                </li>
+                <li>
+                    <span class="details-label">Nombre:</span>
+                    @Html.DisplayFor(model => model.Nombre)
+                </li>
+                <li>
+                    <span class="details-label">Marca:</span>
+                    @Html.DisplayFor(model => model.Marca)
+                </li>
+                <li>
+                    <span class="details-label">Modelo:</span>
+                    @Html.DisplayFor(model => model.Modelo)
+                </li>
+                <li>
+                    <span class="details-label">Precio:</span>
+                    @Html.DisplayFor(model => model.Precio)
+                </li>
+                <li>
+                    <span class="details-label">Imagen Principal:</span>
+                    <img src="@Model.imgprincipal" alt="Imagen del Producto" width="100" />
+                </li>
+                <!-- Resto de los detalles del producto -->
+            </ul>
+        </div>
+        
+        <form asp-action="BorrarStokc" class="delete-form">
+            <input type="hidden" asp-for="idproducto" />
+            <button type="submit" class="btn btn-danger">Eliminar Producto</button>
+            <a asp-action="InicioStock" class="btn btn-secondary">Volver a la Lista</a>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

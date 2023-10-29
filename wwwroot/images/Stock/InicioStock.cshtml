@@ -1,0 +1,52 @@
+@model IEnumerable<Productos.Models.Stock>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<h1>Lista de Inventario</h1>
+
+<p class="create-link">
+    <a asp-action="CrearRegStock" class="btn btn-primary">Crear Nuevo</a>
+</p>
+<div class="vertical-list">
+    @foreach (var item in Model) {
+        <div class="list-item">
+            <img src="@item.imgprincipal" alt="Imagen del Producto" width="100" />
+            <div class="item-details">
+                <div><strong>Código del producto:</strong> @item.idproducto</div>
+                <div><strong>Número de Bodega:</strong> @item.NumBodega</div>
+                <div><strong>Tipo de Producto:</strong> @item.TipoProducto</div>
+                <div><strong>Cantidad:</strong> @item.Cantidad</div>
+                <div><strong>Nombre:</strong> @item.Nombre</div>
+                <div><strong>Marca:</strong> @item.Marca</div>
+                <div><strong>Modelo:</strong> @item.Modelo</div>
+              
+                <div><strong>Precio:</strong> $@item.Precio.ToString("0.00")</div>
+            </div>
+            <div class="item-actions">
+                <a asp-action="EditarStock" asp-route-id="@item.idproducto" class="btn btn-primary">Editar</a>
+                <a asp-action="DetallesStock" asp-route-id="@item.idproducto" class="btn btn-secondary">Detalles</a>
+                <a asp-action="BorrarStokc" asp-route-id="@item.idproducto" class="btn btn-danger">Borrar</a>
+            </div>
+        </div>
+        <hr class="list-separator" />
+    }
+</div>
+
+<div class="return-link">
+    <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+</div>
+
+</body>
+</html>

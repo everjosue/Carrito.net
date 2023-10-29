@@ -1,0 +1,103 @@
+@model Productos.Models.ProductosInventario
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tu Título</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Estilos de Bootstrap -->
+   
+</head>
+
+<div class="container-resenia">
+
+    <h1 class="text-center">Reseñas del Producto</h1>
+    <br/>
+    @foreach (var item in Model.Resenias)
+    {
+        <div class="bg-white p-2">
+            <span>Usuario:</span>
+            <span>@item.Usuario</span>
+            <br />
+            <span class="date text-black-50">
+                Fecha de Publicación: @item.Date
+            </span>
+            <div class="mt-2">
+                <p>@item.Comentario</p>
+            </div>
+            <div class="d-flex">
+
+                <form asp-action="Delete" asp-controller="Resenias" method="post">
+                    <input type="hidden" name="idresena" value="@item.idresena" />
+                    <button type="submit" class="btn btn-link text-danger">Borrar</button>
+                </form>
+            </div>
+            <hr/>
+        </div>
+    }
+    
+    <!-- Resto del contenido -->
+     <div class="bg-light p-2">
+        <form asp-controller="Resenias" asp-action="Save" method="POST">
+            <input type="hidden" name="ProductosInventarioidproducto" value="@Model.idproducto"/>
+            <div class="form-group">
+                <label for="Usuario">Nombre de Usuario:</label>
+                <textarea id="Usuario" name="Usuario" class="form-control mb-1" rows="1"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="Comentario">Reseña:</label>
+                <textarea id="Comentario" name="Comentario" class="form-control mb-1"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+    </div>
+    
+</div>
+
+<!-- Modal de Edición -->
+<div class="modal fade" id="editarModal" tabindex="-1" role="dialog" aria-labelledby="editarModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editarModalLabel">Editar Reseña</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-controller="Resenias" asp-action="Edit" method="POST">
+                    <input type="hidden" name="idresena" id="idresena" />
+                    <div class="form-group">
+                        <label for="EditarUsuario">Nombre de Usuario:</label>
+                        <input id="EditarUsuario" name="Usuario" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="EditarComentario">Reseña:</label>
+                        <textarea id="EditarComentario" name="Comentario" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#editarModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Botón que activó el modal
+        var idresena = button.data('idresena'); // Extraer el valor de data-idresena
+        var usuario = button.data('usuario'); // Extraer el valor de data-usuario
+        var comentario = button.data('comentario'); // Extraer el valor de data-comentario
+        
+        var modal = $(this);
+        modal.find('#idresena').val(idresena); // Actualizar el campo oculto de idresena
+        modal.find('#EditarUsuario').val(usuario); // Actualizar el campo de usuario
+        modal.find('#EditarComentario').val(comentario); // Actualizar el campo de comentario
+    });
+</script>
+
+ <script src="~/lib/jquery/dist/jquery.min.js"></script> <!-- jQuery -->
+ <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS (con Popper.js) -->

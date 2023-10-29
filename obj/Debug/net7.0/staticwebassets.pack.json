@@ -1,0 +1,605 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Proyec1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Proyec1.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\css\\estilos.css",
+      "PackagePath": "staticwebassets\\css\\estilos.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\BIOLED1.png",
+      "PackagePath": "staticwebassets\\images\\BIOLED1.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Cap1.png",
+      "PackagePath": "staticwebassets\\images\\Cap1.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Cap2.png",
+      "PackagePath": "staticwebassets\\images\\Cap2.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Cap3.png",
+      "PackagePath": "staticwebassets\\images\\Cap3.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Cap4.png",
+      "PackagePath": "staticwebassets\\images\\Cap4.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Captura de pantalla (166).png",
+      "PackagePath": "staticwebassets\\images\\Captura de pantalla (166).png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Cargador.webp",
+      "PackagePath": "staticwebassets\\images\\Cargador.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\CargadorDura1.webp",
+      "PackagePath": "staticwebassets\\images\\CargadorDura1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\CargadorSM1.jpg",
+      "PackagePath": "staticwebassets\\images\\CargadorSM1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Fondo.jpg",
+      "PackagePath": "staticwebassets\\images\\Fondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Huawei1.jpg",
+      "PackagePath": "staticwebassets\\images\\Huawei1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\LG_logo.png",
+      "PackagePath": "staticwebassets\\images\\LG_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\LapAcer1.jpg",
+      "PackagePath": "staticwebassets\\images\\LapAcer1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\LaptopMSI1.jpg",
+      "PackagePath": "staticwebassets\\images\\LaptopMSI1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Li1.jpg",
+      "PackagePath": "staticwebassets\\images\\Li1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Li2.jpg",
+      "PackagePath": "staticwebassets\\images\\Li2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Li3.jpg",
+      "PackagePath": "staticwebassets\\images\\Li3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Logo-nuevo.png",
+      "PackagePath": "staticwebassets\\images\\Logo-nuevo.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Logo_Principal.png",
+      "PackagePath": "staticwebassets\\images\\Logo_Principal.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Modulos1.jpg",
+      "PackagePath": "staticwebassets\\images\\Modulos1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\ModulosCliente.png",
+      "PackagePath": "staticwebassets\\images\\ModulosCliente.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\ModulosPedidos.webp",
+      "PackagePath": "staticwebassets\\images\\ModulosPedidos.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\ModulosProductos.jpg",
+      "PackagePath": "staticwebassets\\images\\ModulosProductos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\ModulosProveedor.webp",
+      "PackagePath": "staticwebassets\\images\\ModulosProveedor.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Pixel1.jpg",
+      "PackagePath": "staticwebassets\\images\\Pixel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\ProveedoresController.cs",
+      "PackagePath": "staticwebassets\\images\\ProveedoresController.cs"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Representacion.png",
+      "PackagePath": "staticwebassets\\images\\Representacion.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\SM1.webp",
+      "PackagePath": "staticwebassets\\images\\SM1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Samsun.png",
+      "PackagePath": "staticwebassets\\images\\Samsun.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\StockController.cs",
+      "PackagePath": "staticwebassets\\images\\StockController.cs"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Tarea_U5.pdf",
+      "PackagePath": "staticwebassets\\images\\Tarea_U5.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\TeleLG1.jpeg",
+      "PackagePath": "staticwebassets\\images\\TeleLG1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\TeleLG2.jpg",
+      "PackagePath": "staticwebassets\\images\\TeleLG2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Televi1.jpg",
+      "PackagePath": "staticwebassets\\images\\Televi1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Televi2.jpeg",
+      "PackagePath": "staticwebassets\\images\\Televi2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\TelevisorSankey.jpg",
+      "PackagePath": "staticwebassets\\images\\TelevisorSankey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Unidad VIII_Servicio y atencion al cliente.pdf",
+      "PackagePath": "staticwebassets\\images\\Unidad VIII_Servicio y atencion al cliente.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\VentasController.cs",
+      "PackagePath": "staticwebassets\\images\\VentasController.cs"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\Xiaomi-Logo.png",
+      "PackagePath": "staticwebassets\\images\\Xiaomi-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\abani1.jpeg",
+      "PackagePath": "staticwebassets\\images\\abani1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\abani2.webp",
+      "PackagePath": "staticwebassets\\images\\abani2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\abani3.webp",
+      "PackagePath": "staticwebassets\\images\\abani3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cafete1.jpg",
+      "PackagePath": "staticwebassets\\images\\cafete1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cafete2.jpg",
+      "PackagePath": "staticwebassets\\images\\cafete2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cafete3.webp",
+      "PackagePath": "staticwebassets\\images\\cafete3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cel1.jpg",
+      "PackagePath": "staticwebassets\\images\\cel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cel2.jpeg",
+      "PackagePath": "staticwebassets\\images\\cel2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cel3.jpg",
+      "PackagePath": "staticwebassets\\images\\cel3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cliente.jpg",
+      "PackagePath": "staticwebassets\\images\\cliente.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cliente2.png",
+      "PackagePath": "staticwebassets\\images\\cliente2.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cocin1.webp",
+      "PackagePath": "staticwebassets\\images\\cocin1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cocin2.jpg",
+      "PackagePath": "staticwebassets\\images\\cocin2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\cocin3.jpg",
+      "PackagePath": "staticwebassets\\images\\cocin3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\google-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\google-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\horn1.jpg",
+      "PackagePath": "staticwebassets\\images\\horn1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\horn2.jpg",
+      "PackagePath": "staticwebassets\\images\\horn2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\horn3.webp",
+      "PackagePath": "staticwebassets\\images\\horn3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\laHP1.jpg",
+      "PackagePath": "staticwebassets\\images\\laHP1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\laHP2.jpg",
+      "PackagePath": "staticwebassets\\images\\laHP2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\laHP3.jpeg",
+      "PackagePath": "staticwebassets\\images\\laHP3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\laLV1.png",
+      "PackagePath": "staticwebassets\\images\\laLV1.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\laLV2.png",
+      "PackagePath": "staticwebassets\\images\\laLV2.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\large01.webp",
+      "PackagePath": "staticwebassets\\images\\large01.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\large02.webp",
+      "PackagePath": "staticwebassets\\images\\large02.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\large05.webp",
+      "PackagePath": "staticwebassets\\images\\large05.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\lav1.webp",
+      "PackagePath": "staticwebassets\\images\\lav1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\lav2.webp",
+      "PackagePath": "staticwebassets\\images\\lav2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\lav3.jpg",
+      "PackagePath": "staticwebassets\\images\\lav3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\lenovo_lenov.webp",
+      "PackagePath": "staticwebassets\\images\\lenovo_lenov.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\pedido.png",
+      "PackagePath": "staticwebassets\\images\\pedido.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\photo.jpg",
+      "PackagePath": "staticwebassets\\images\\photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\plan1.jpg",
+      "PackagePath": "staticwebassets\\images\\plan1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\plan2.jpg",
+      "PackagePath": "staticwebassets\\images\\plan2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\plan3.jpg",
+      "PackagePath": "staticwebassets\\images\\plan3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\refri1.webp",
+      "PackagePath": "staticwebassets\\images\\refri1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\refri2.webp",
+      "PackagePath": "staticwebassets\\images\\refri2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\refri3.webp",
+      "PackagePath": "staticwebassets\\images\\refri3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\sec1.webp",
+      "PackagePath": "staticwebassets\\images\\sec1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\sec2.jpg",
+      "PackagePath": "staticwebassets\\images\\sec2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\sec3.jpg",
+      "PackagePath": "staticwebassets\\images\\sec3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\son1.png",
+      "PackagePath": "staticwebassets\\images\\son1.png"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\son2.webp",
+      "PackagePath": "staticwebassets\\images\\son2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\son3.jpg",
+      "PackagePath": "staticwebassets\\images\\son3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\images\\televi3.jpg",
+      "PackagePath": "staticwebassets\\images\\televi3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evert\\OneDrive\\Documentos\\POW 2\\Proyec1\\Proyec1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Proyec1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Proyec1.props",
+      "PackagePath": "build\\Proyec1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Proyec1.props",
+      "PackagePath": "buildMultiTargeting\\Proyec1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Proyec1.props",
+      "PackagePath": "buildTransitive\\Proyec1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

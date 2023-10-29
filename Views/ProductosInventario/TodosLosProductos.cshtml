@@ -1,0 +1,62 @@
+@model List<Productos.Models.ProductosInventario>
+
+<form class="form-inline" method="POST" action="/Home/Buscar">
+    <div class="form-group mx-sm-3 mb-2">
+        <label class="mr-3">Buscar</label>
+        <input type="text" class="form-control" required name="busqueda" placeholder="Nombre del producto a buscar">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+</form>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Sitio de Compras</title>
+    <link rel="stylesheet" href="~/site.css" />
+</head>
+<body>
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido</h1>
+    <p>Aprovecha ofertas y descuentos únicos al realizar tus compras</p>
+</div>
+<div class="header">
+    <img class="logo" src="/images/Representacion.png" alt="Logo de Mi Sitio de Compras">
+    <img class="logo_secundario" src="/images/Logo_Principal.png" alt="Logo de Mi Sitio de Compras">
+</div>
+
+<br/>
+<br/>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">    
+            <div class="card mb-3">
+                <img src="@item.imgprincipal" class="card-img-top img-fluid" style="height: 200px;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Nombre</h5>
+                    @if (!string.IsNullOrEmpty(item.descripcion) && item.descripcion.Length > 60)
+                    {
+                        <p class="card-text">@item.descripcion.Substring(0, 60)</p>
+                    }
+                    else
+                    {
+                        <p class="card-text">@item.descripcion</p>
+                    }
+                    <a href="/ProductosInventario/Detalles/@item.idproducto" class="btn btn-primary">Detalles</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+</body>
+</html>

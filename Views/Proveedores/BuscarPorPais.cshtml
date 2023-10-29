@@ -1,0 +1,51 @@
+@model List<Productos.Models.Proveedores>
+
+@{
+    ViewData["Title"] = "Proveedores por País";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/custom-style.css" /> <!-- Enlace al archivo CSS personalizado -->
+</head>
+<body>
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+
+    <form method="get" asp-action="BuscarPorPais">
+        <label for="pais">Selecciona un país:</label>
+        <select name="pais" id="pais">
+            <option value="">-- Todos los países --</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Korea del Sur">Korea del Sur</option>
+            <!-- Agrega más opciones de países según tus necesidades -->
+        </select>
+        <button type="submit">Buscar</button>
+    </form>
+
+    @if (Model.Any())
+    {
+        <h3>Proveedores encontrados:</h3>
+        <ul>
+            @foreach (var proveedor in Model)
+            {
+                <li>
+                    <strong>@proveedor.Nombre</strong> - @proveedor.PaisProveedor
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No se encontraron proveedores para el país seleccionado.</p>
+    }
+</div>
+
+</body>
+</html>

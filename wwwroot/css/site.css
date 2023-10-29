@@ -1,0 +1,642 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Contenido de site.css */
+
+/* Estilos para el encabezado */
+/*.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #ffffff;
+}*/
+
+/* Estilos para la imagen ilustrativa */
+/*.logo {
+  width: 150px;
+  height: auto;
+}*/
+
+.logo {
+  position: absolute;
+  top: 110px;
+  right: 10px;
+  width: 150px;
+  height: auto;
+}
+
+.logo_secundario {
+  position: absolute;
+  top: 90px;
+  left: -20px;
+  width: 250px;
+  height: auto;
+}
+
+/* estilos.css */
+.boton-personalizado {
+  margin-top: 50px;
+  margin-left: 60px;
+
+  margin-left: 1000px;
+  /* Otros estilos aquí */
+}
+
+
+/* estilos.css */
+/* Estilos para el encabezado h1 */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces de Create New */
+p a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de encabezado de tabla */
+.table th {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de datos de tabla */
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de acciones */
+.table td a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Estilos para la imagen */
+.table td img {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/*Estilo de el Inicio  de stock*/
+
+
+/* estilos.css */
+/* Estilos para el encabezado h1 */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces "Create New" */
+p a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de encabezado de tabla */
+.table th {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de datos de tabla */
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de acciones */
+.table td a {
+  margin-right: 5px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Estilos para las imágenes */
+.table td img {
+  max-width: 100px; /* Ajusta este valor según tu preferencia */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para los botones de acción */
+.table td a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para la pagina de crear registros*/
+
+/* estilos.css */
+/* Estilos para el encabezado h1 */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los campos de formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los mensajes de validación */
+.text-danger {
+  color: red;
+}
+
+/* Estilos para el botón de enviar */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el enlace "Back to List" */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Estilos para el enlace "Back to List" al pasar el ratón por encima */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo de la pagina InicioStock*/
+
+/* site.css */
+/* Estilos para el encabezado h1 */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces "Create New" */
+p a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Estilos para la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de encabezado de tabla */
+.table th {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de datos de tabla */
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para las celdas de acciones */
+.table td a {
+  display: block;
+  text-decoration: none;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+/* Estilos para las imágenes */
+.table td img {
+  max-width: 100px; /* Ajusta este valor según tu preferencia */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para el enlace "Back to List" */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Estilos para el enlace "Back to List" al pasar el ratón por encima */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de formulario */
+label.control-label {
+  font-weight: bold;
+}
+
+/* Estilo para la pagina crear*/
+
+/* site.css */
+/* Estilos para el encabezado h1 */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+.styled-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+/* Estilos para los campos de formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de formulario */
+.control-label {
+  font-weight: bold;
+}
+
+
+
+/* Estilos para la vista borrar*/
+
+.product-details-box {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.product-details-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-details-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.delete-page {
+  /* Estilos para la página de eliminación en general */
+}
+
+/* Resto de tus estilos */
+
+
+/* Estilo para ver proveedores*/
+/* Estilos generales para la página de detalles */
+.details-page {
+  padding: 20px;
+}
+
+.details-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.details-title {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.details-hr {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-color: #ddd;
+}
+
+/* Estilos para los detalles del proveedor */
+.details-details {
+  margin-bottom: 20px;
+}
+
+.details-subtitle {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.details-dl {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  font-size: 14px;
+}
+
+/* Estilos para los botones de acciones */
+.details-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+
+/*ESTILOS PARA LA PAGINA DE borrar proveedores*/
+
+/* Estilos generales para la página de eliminación */
+.delete-page {
+  padding: 20px;
+}
+
+.delete-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.delete-title {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.delete-hr {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-color: #ddd;
+}
+
+/* Estilos para el mensaje de confirmación de eliminación */
+.delete-subtitle {
+  margin-top: 0;
+  font-size: 18px;
+  color: #dc3545; /* Color rojo para destacar */
+}
+
+.delete-dl {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los botones de eliminación y volver */
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+
+/* Estilos generales para la página de lista de proveedores */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.create-link {
+  margin-bottom: 20px;
+}
+
+.vertical-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-item img {
+  max-width: 100px;
+  height: auto;
+}
+
+.item-details {
+  flex: 1;
+  font-size: 14px;
+}
+
+.item-details strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.list-separator {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.return-link {
+  margin-top: 20px;
+}
+
+/* Estilos para los botones de acción */
+.btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botoninicio-button {
+  text-align: right;
+  margin-top: 200px; /* Ajusta el valor según sea necesario */
+  
+}
+
+.product-image {
+  max-width: 50%;
+  height: auto;
+}
+

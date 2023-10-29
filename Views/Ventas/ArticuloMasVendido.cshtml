@@ -1,0 +1,23 @@
+@if (ViewBag.ArticuloMasVendido != null)
+{
+    <h4 class="details-subtitle">Detalles del Artículo Más Vendido</h4>
+    <dl class="details-dl">
+        <dt>ID:</dt>
+        <dd>@ViewBag.ArticuloMasVendido.idproducto</dd>
+
+        <dt>Nombre:</dt>
+        <dd>@ViewBag.ArticuloMasVendido.Nombre</dd>
+
+        <dt>Marca:</dt>
+        <dd>@ViewBag.ArticuloMasVendido.Marca</dd>
+
+        <dt>Modelo:</dt>
+        <dd>@ViewBag.ArticuloMasVendido.Modelo</dd>
+
+        <!-- Agrega más propiedades según tus necesidades -->
+    </dl>
+}
+else
+{
+    <p>No hay productos vendidos aún.</p>
+}

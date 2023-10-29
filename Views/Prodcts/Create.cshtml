@@ -1,0 +1,13 @@
+@model Productos.Models.Prodcts
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form asp-action="Create">
+    Nombre: <input asp-for="Nombre" class="form-control" />
+    <br>
+    Descripcion: <input asp-for="descripcion" class="form-control" />
+    <br/>
+    <input type="submit" value="Create" class="btn btn-primary" />
+</form>

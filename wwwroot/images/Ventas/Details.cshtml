@@ -1,0 +1,62 @@
+@model Productos.Models.VentasProductos
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<div class="details-page">
+    <div class="details-container">
+        <h1 class="details-title">@ViewData["Title"]</h1>
+        <hr class="details-hr" />
+
+        <div class="details-details">
+            <h4 class="details-subtitle">Detalles de la Venta</h4>
+            <dl class="details-dl">
+                <dt>Código del Producto:</dt>
+                <dd>@Html.DisplayFor(model => model.idproducto)</dd>
+
+                <dt>Cédula del Cliente:</dt>
+                <dd>@Html.DisplayFor(model => model.CedulaCliente)</dd>
+
+                <dt>Nombre del Cliente:</dt>
+                <dd>@Html.DisplayFor(model => model.NombreCliente)</dd>
+
+                <dt>Cantidad de Venta:</dt>
+                <dd>@Html.DisplayFor(model => model.CantidadVenta)</dd>
+
+                <dt>Nombre:</dt>
+                <dd>@Html.DisplayFor(model => model.Nombre)</dd>
+
+                <dt>Marca:</dt>
+                <dd>@Html.DisplayFor(model => model.Marca)</dd>
+
+                <dt>Modelo:</dt>
+                <dd>@Html.DisplayFor(model => model.Modelo)</dd>
+
+                <dt>Precio:</dt>
+                <dd>@Html.DisplayFor(model => model.Precio)</dd>
+
+                <dt>Imagen Principal:</dt>
+                <dd>@Html.DisplayFor(model => model.imgprincipal)</dd>
+            </dl>
+        </div>
+        
+        <div class="details-actions">
+            <a asp-action="Edit" asp-route-id="@Model?.idproducto" class="btn btn-primary">Editar</a>
+            <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

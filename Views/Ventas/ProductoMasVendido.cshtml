@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "Producto Más Vendido";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (ViewBag.ProductoMasVendido != null)
+{
+    <dl class="row">
+        <dt class="col-sm-3">ID Producto</dt>
+        <dd class="col-sm-9">@ViewBag.ProductoMasVendido.IdProducto</dd>
+
+        <dt class="col-sm-3">Nombre</dt>
+        <dd class="col-sm-9">@ViewBag.ProductoMasVendido.Nombre</dd>
+
+        <dt class="col-sm-3">Marca</dt>
+        <dd class="col-sm-9">@ViewBag.ProductoMasVendido.Marca</dd>
+
+        <dt class="col-sm-3">Modelo</dt>
+        <dd class="col-sm-9">@ViewBag.ProductoMasVendido.Modelo</dd>
+
+        <dt class="col-sm-3">Total Ventas</dt>
+        <dd class="col-sm-9">@ViewBag.ProductoMasVendido.TotalVentas</dd>
+
+        <dt class="col-sm-3">Total Unidades Vendidas</dt>
+        <dd class="col-sm-9">@ViewBag.ProductoMasVendido.TotalUnidadesVendidas</dd>
+    </dl>
+}
+else
+{
+    <p>No se encontraron datos sobre el producto más vendido.</p>
+}
+
+<a asp-action="Index">Volver a la lista de ventas</a>

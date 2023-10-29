@@ -1,0 +1,53 @@
+@model Productos.Models.ProductosInventario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+<div class="details-page">
+    <div class="details-container">
+        <h1 class="details-title">Detalles</h1>
+        <hr class="details-hr" />
+
+        <div class="details-details">
+            <h4 class="details-subtitle">Detalles del Producto</h4>
+            <dl class="details-dl">
+                <dt>Nombre:</dt>
+                <dd>@Html.DisplayFor(model => model.Nombre)</dd>
+
+                <dt>Marca:</dt>
+                <dd>@Html.DisplayFor(model => model.Marca)</dd>
+
+                <dt>Modelo:</dt>
+                <dd>@Html.DisplayFor(model => model.Modelo)</dd>
+
+                <dt>Precio:</dt>
+                <dd>@Html.DisplayFor(model => model.Precio)</dd>
+
+                <dt>Descripción:</dt>
+                <dd>@Html.DisplayFor(model => model.descripcion)</dd>
+
+                <dt>Imagen Principal:</dt>
+                <dd><img src="@Model.imgprincipal" width="200" alt="Imagen del Producto" /></dd>
+            </dl>
+        </div>
+        
+        <div class="details-actions">
+            <a asp-action="Edit" asp-route-id="@Model.idproducto" class="btn btn-primary">Editar</a>
+            <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
